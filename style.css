@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.box{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+#name{
+    width: 300px;
+    height: 30px;
+    
+}
+#password{
+    width: 300px;
+    height: 30px;
+    
+}
+#but{
+    width: 100px;
+    height: 30px;
+}
+label{
+    font-size: 25px;
+}
